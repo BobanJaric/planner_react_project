@@ -1,3 +1,7 @@
+This version is only for DEMO purpose.
+Real time project is much bigger and with more functionality.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
