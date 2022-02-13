@@ -1,0 +1,194 @@
+
+.white-holder {
+    margin: 90px auto 0px;
+    width: 800px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 40px ;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.note-wrap {
+    border: solid 1px rgb(50, 73, 95);
+    margin: 15px;
+    padding: 18px;
+    height: 100%;
+    border-radius: 5px;
+    /* position: relative; */
+      
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding: 0;
+    height:30px;
+}
+
+.picture-input3 { 
+    width:25px;
+     height: 25px; 
+    margin-left: 10px;
+    background: url(./note1.png) center no-repeat  ; 
+}
+
+/**************** BUTTONS****************/
+
+/* .btn {
+    margin: 15px 0;
+    background-color: rgb(247, 244, 244, 0.8);
+}
+ */
+
+.btn:focus {
+    background-color: rgba(255,255,255,.15);
+}
+
+
+/* Add note dugme*/
+.buttonSub .btn {
+    position: absolute;
+    top: 55px;
+    right: 53px;
+    line-height: 1;
+    width: 110px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(50, 73, 95);
+    border-color:rgb(50, 73, 95);
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+.buttonSub .btn:hover {
+    background-color:rgba(246, 166, 35);
+    border-color:rgb(50, 73, 95);
+    color: rgb(50, 73, 95);
+}
+
+/************************************************/
+
+
+.col-md-2 {
+    margin-right: 18px;
+    width: 150px
+    
+}
+
+.form-control6 {
+    margin: 0;
+    background-color: rgb(247, 244, 244, 0.8);
+    border-color: red;
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s
+  
+}
+
+.form-control6:focus {
+    border-color: rgba(50, 73, 95);
+    box-shadow: 0 0 0 0.25rem rgba(50, 73, 95, 0.34);
+}
+
+.form-control6:required:valid {
+    border-color: rgba(50, 73, 95, 0.5);
+    background-color: white;
+ } 
+
+
+
+/* fake input klasa pomaze da se slicice postave u input polja i da se tekst doda na border*/
+.fake-input { position: relative; }
+.fake-input .picture-input3 { width:20px; height: 20px; position: absolute; top: 10px; right: 6px }
+
+/* tekst koji ide na border od input polja*/
+.myInput-label {
+    display: none;
+    font-size:11px;
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 0 5px;
+    font-weight: bold;
+  }
+
+.fake-input input:focus + .myInput-label {
+    display: inline-block;
+    position:absolute;
+    left: 18px;
+    top:-8px;
+  }
+
+  .fake-input input:not(:focus):valid + .myInput-label {
+    display: inline-block;
+    position:absolute;
+    left: 18px;
+    top:-8px;
+    
+  }
+
+  
+  /* kada se tekst unese u polje nestaje placeholder*/
+  .fake-input input:focus::placeholder {
+      color: transparent;
+  }
+
+
+
+ /* Note text area*/
+.note2 {
+    width: 100%;
+    min-height: 330px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 1px #aaa;
+    background-color: rgba(50, 73, 95, 0.1); 
+    border-radius: 5px;
+}
+
+/* Dodato za mobile */
+
+@media (max-width: 668px) {
+    .white-holder {
+        margin: 90px auto 0px;
+        width: 375px;
+        height: 540px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 40px ;
+        position: relative;
+        padding: 20px;  
+    }
+    .white-holder #date {
+        width: 135px;
+    }
+    .note-wrap{
+        height: auto;
+    }
+    .note-wrap textarea {
+        height: 200px;
+    }
+
+}

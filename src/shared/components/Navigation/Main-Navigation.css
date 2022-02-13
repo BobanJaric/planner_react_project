@@ -1,0 +1,122 @@
+.main-navigation{
+    background-color: rgb(50,73,95);
+    color:#f2f4f6;
+} 
+
+ .nav-item:hover,
+ .nav-item:focus{
+    color: rgb(50,73,95);
+    background-color:#f2f4f6;
+} 
+
+
+.nav-link {
+    color: white; 
+}
+
+
+.nav-link:hover {
+    color: rgb(50,73,95); 
+}
+
+img, .img-thumbnail {
+    width: 10.7%;
+    float: right;
+    border-radius: 0%;
+}
+
+
+
+html, body {
+    width: 100%;
+}
+.container-img {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    overflow: visible;
+    border: 0px solid rgb(229, 229, 229);
+    padding: 0px;
+    font-family: sans-serif, Helvetica, ;
+    font-size: inherit;
+    position: relative;
+    height: 75px;
+    text-align: inherit;
+    background-color: rgb(50, 73, 95);
+    padding: 20px 0;
+    line-height: inherit;
+}
+
+ul {
+    display: flex;
+    -webkit-box-pack: center;
+    padding: 0px 5px;
+    width: 600px;
+    margin:0;
+    
+}
+
+li {
+    flex: 1 1 25%;
+    margin: 0px 15px;
+    text-align: center;
+    
+}
+
+.button-img {
+    padding: 8px;
+    line-height: 1;
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    color:white;
+    background: rgba(216, 216, 216, 0.34);
+    border: 1px solid rgba(211, 211, 211, 0.3);
+    padding: 0px 4px 0px 6px;
+    height: 28px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;
+    font-size: 13px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    bottom: 10px;
+    right: 0px;
+    z-index: 2;
+    outline: none;
+    font-family: HelveticaNeue, Helvetica, sans-serif;
+    -webkit-box-pack: center;
+    justify-content: center;
+   background:rgba(255,255,255,.15);
+
+   
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    
+}
+ span {
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 20px;
+
+} 
+
+
+.list-reset {
+    margin:0;
+    padding: 0 10px;
+    list-style-type:none;
+}

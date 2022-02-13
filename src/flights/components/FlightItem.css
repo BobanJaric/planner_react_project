@@ -1,0 +1,462 @@
+:root {
+    --color-pax: rgb(194, 25, 25);
+}
+
+.place-item2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.place-item {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.note-info {
+    box-sizing: border-box;
+    position: absolute;
+    left: 198px;
+    bottom: 5px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 40px
+}
+
+.note-info::after,
+.note-info::before {
+    content: "";
+    /*   display: block; */
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    background: currentColor;
+    left: 6px
+}
+
+.note-info::after {
+    top: 2px;
+    height: 7px
+}
+
+.note-info:before {
+    height: 2px;
+    bottom: 2px
+}
+
+.place-item__content {
+    padding: 0;
+    /* width: 14rem; */
+    height: 100%;
+    margin: 0;
+    /* max-height: 4rem; */
+    /*   display: flex;
+  justify-content: center; */
+}
+
+.place-item__content2 {
+    padding: 0;
+    width: 14rem;
+    height: 100%;
+    margin: 0;
+}
+
+.place-item__info h2,
+.place-item__info h3,
+.place-item__info p {
+    margin: 0.1rem 0 0.5rem 0;
+    font-size: 13px;
+    padding-left: 3px;
+    text-align: left;
+}
+
+.place-item__info2 h2,
+.place-item__info2 h3,
+.place-item__info2 p {
+    margin: 0.1rem 0 0.5rem 0;
+    font-size: 13px;
+    text-align: left;
+}
+
+.pax {
+    color: var(--color-pax);
+}
+
+.place-item__info h5 {
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+.place-item__info2 h5 {
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 13px;
+}
+
+.place-item__info span:first-child {
+    padding-right: 3px;
+}
+
+.place-item__actions {
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.place-item__modal-content {
+    padding: 0;
+}
+
+.place-item__modal-actions {
+    text-align: right;
+}
+
+
+/* .place-item__actions button,
+.place-item__actions a {
+  margin: 0.5rem; 
+} */
+
+.map-container {
+    height: 15rem;
+    width: 100%;
+}
+
+.note-container {
+    margin: 1rem;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+#note-item {
+    font-weight: bold;
+}
+
+.boxed {
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(75, 108, 141);
+    box-sizing: border-box;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+}
+
+.tooltip-holder {
+    width: 500px;
+    height: 250px;
+    border: 2px solid rgb(75, 108, 141);
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    bottom: 210px;
+    left: 700px;
+    z-index: 100;
+    background-color: lightskyblue;
+    padding: 15px 35px;
+    box-shadow: rgb(75, 108, 141);
+}
+
+.tooltip-holder p {
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+@media (min-width: 416px) {
+    .place-item__content {
+        padding: 0;
+        margin-right: 0;
+        width: 13rem;
+        height: 100%;
+    }
+    .place-item__info {
+        margin-right: 0;
+        padding: 0;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 10rem;
+        height: 100%;
+    }
+    .place-item__info h2,
+    .place-item__info h3,
+    .place-item__info p {
+        /* margin: 0 0 0.1rem 0;  */
+        font-size: 7px;
+    }
+    .place-item__info2 h2,
+    .place-item__info2 h3,
+    .place-item__info2 p {
+        margin: 0 0 0.3rem 0;
+        font-size: 7px;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 11rem;
+        height: 100%;
+        margin: 0;
+    }
+    .place-item__info span {
+        margin: 0;
+        font-size: 12px;
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media (min-width: 768px) {
+    .place-item__content {
+        padding: 0;
+        margin-right: 0;
+        width: 12rem;
+        height: 100%;
+    }
+    .place-item2 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 4px;
+        width: 80%;
+    }
+    .place-item__info {
+        margin-right: 0;
+        padding: 0;
+    }
+    .place-item__info h2,
+    .place-item__info h3,
+    .place-item__info p {
+        margin: 0 0 0.3rem 0;
+        font-size: 5px;
+    }
+    .place-item__info2 h2,
+    .place-item__info2 h3,
+    .place-item__info2 p {
+        margin: 0 0 0.3rem 0;
+        font-size: 7px;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 11.5rem;
+        height: 100%;
+        margin: 0;
+    }
+    .place-item__info span {
+        margin: 0;
+        font-size: 11px;
+        text-align: center;
+        padding: 1px;
+    }
+}
+
+@media (min-width: 992px) {
+    .place-item__content {
+        padding: 0;
+        margin-right: 0;
+        width: 12rem;
+        height: 100%;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 10, 5rem;
+        height: 100%;
+    }
+    .place-item__info h2,
+    .place-item__info h3,
+    .place-item__info p {
+        margin: 0 0 0.5rem 0;
+        font-size: 10px;
+    }
+    .place-item__info2 h2,
+    .place-item__info2 h3,
+    .place-item__info2 p {
+        margin: 0 0 0.5rem 0;
+        font-size: 10px;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 12.5rem;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1758px) {
+    .place-item__content {
+        padding: 0;
+        margin-right: 0;
+        width: 14rem;
+        height: 100%;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 13, 5rem;
+        height: 100%;
+    }
+    .place-item__info h2,
+    .place-item__info h3,
+    .place-item__info p {
+        margin: 0 0 0.5rem 0;
+        font-size: 12px;
+    }
+    .place-item__info2 h2,
+    .place-item__info2 h3,
+    .place-item__info2 p {
+        margin: 0 0 0.5rem 0;
+        font-size: 12px;
+    }
+    .place-item__content2 {
+        padding: 0;
+        width: 14.5rem;
+        height: 100%;
+        margin: 0;
+    }
+}
+
+.tr-maintable th {
+    color: white;
+}
+
+
+/* .button-tooltip {
+
+  background-color: rgb(88, 121, 153);
+  color: whitesmoke;
+  padding: 0;
+  margin:0;
+} */
+
+.button-tooltip .tooltip-inner {
+    background-color: rgb(48, 48, 11);
+    color: white;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-3 {
+    font-size: 11px;
+    background-color: rgb(11, 24, 18);
+    border: none;
+    color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    background: url(./pictures/current.png) center no-repeat;
+}
+
+
+/* 
+
+.place-item {
+    margin: 1rem ;
+    padding: 1rem;
+  }
+  
+  .place-item__content {
+    padding: 0;
+  }
+  
+  .place-item__info {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .place-item__image {
+    width: 100%;
+    height: 12.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .place-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .place-item__info h2,
+  .place-item__info h3,
+  .place-item__info p {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .place-item__actions {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+  }
+  
+  .place-item__modal-content {
+    padding: 0;
+  }
+  
+  .place-item__modal-actions {
+    text-align: right;
+  }
+  
+  .place-item__actions button,
+  .place-item__actions a {
+    margin: 0.5rem;
+  }
+  
+  .map-container {
+    height: 15rem;
+    width: 100%;
+  }
+
+@media(min-width:768px){
+    .place-item__image{
+        height: 20rem;
+        margin-top: 1rem;
+    }
+
+    .place-item__image img{
+        display: block;
+        width: 40%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .map-container{
+        width: 100%;
+        height: 26rem;
+  
+    }
+
+    .place-item__info{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .place-item__info h2,
+    .place-item__info h3,
+    .place-item__info p {
+        display: block;
+        width: 100%;
+        margin:auto ;
+}
+    
+
+    .place-item__actions{
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+ */

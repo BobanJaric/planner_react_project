@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+.auth__header {
+    color: white;
+    text-align: center;
+  }
+  
+  .auth {
+    font-family: "Poppins";
+    width: 90%;
+    height: 100%;
+    max-width: 25rem;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    
+  }
+  
+  .auth  form {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .auth  form div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .flight-header select, input {
+    margin-left: 0;
+}
+
+  .auth input,select {
+    width: 20rem; 
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+  .auth p{
+
+    text-transform: uppercase;
+  }
+
+  .auth button{
+    margin-top: 1.5rem;
+    width: 20rem; 
+  }
+
+  .signup{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+  }
+
+  .signup .signup-table .sbody tr{
+    height: 30px;
+  }
+  .signup .signup-table .sbody .s-col{
+    width: 100px;
+    max-width: 100px;
+  }
+
+  .check-box-holder{
+    margin: 25px;
+    display: flex;
+  }
+
+  .check-box-holder input{
+    float: left;
+    width: auto;
+    position: relative;
+    top: 15px;
+  }
+  .check-box-holder label{
+    width: auto;
+    overflow: hidden;
+     padding: 10px 0px 0px 15px;
+    
+  }
+
+    /* Dodato za mobile */
+    @media (max-width: 668px) {
+      .auth input {
+        width: 16rem; 
+      }
+
+      .check-box-holder input{
+        width: auto;
+      }
+      
+      #btn-login{
+        width: 10rem;
+      }
+    }
+
+ 

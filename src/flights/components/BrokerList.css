@@ -1,0 +1,138 @@
+table {
+    margin: 0 auto;
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid blanchedalmond;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.link {
+    padding: 0;
+}
+
+.option-2 h6 {
+    height: 25px;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(88, 121, 153);
+}
+
+td .link:hover,
+.option-2 h6:hover {
+    text-decoration: none;
+    /* background-color: blanchedalmond; */
+    color: rgb(88, 121, 153);
+    margin: 0;
+}
+
+.broker-search {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.auto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: rgb(88, 121, 153);
+    font-size: 18px;
+}
+
+#auto {
+    padding: 0;
+    max-height: 110px;
+    width: 100%;
+    border: 1px solid rgb(88, 121, 153);
+    margin: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.autoContainer-2 {
+    position: absolute;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgb(88, 121, 153);
+    left: 0px;
+    top: 35px;
+    width: 200px;
+    height: auto;
+    max-height: 280px;
+    overflow: hidden;
+    font-size: 18px;
+    z-index: 100;
+    color: rgb(88, 121, 153);
+}
+
+.option-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(88, 121, 153);
+}
+
+.option-2,
+span {
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.option-2:hover {
+    background-color: rgb(88, 121, 153);
+}
+
+.option-2 h6:hover {
+    color: azure;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.row1-2,
+#first-row1 {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.flex-container input {
+    margin-bottom: 0;
+    width: 200px;
+}
+
+.table-aircraft {
+    margin: 0 auto;
+    color: rgb(88, 121, 153);
+    border: 1px solid rgb(88, 121, 153);
+    margin-bottom: 15px;
+}
+
+.table-aircraft td,
+th {
+    color: rgb(88, 121, 153);
+    border: 1px solid rgb(88, 121, 153);
+}

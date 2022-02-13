@@ -1,0 +1,487 @@
+  @media (max-width: 376px) {
+      .map {
+          margin: 0 10px 15px 10px;
+          width: 40%;
+          height: 30%;
+          font-size: 10px;
+          text-align: center;
+          position: relative;
+          padding-bottom: 10px;
+      }
+      .btn-holder {
+          display: none;
+      }
+      .btn-saveBtn {
+          height: fit-content;
+          width: fit-content;
+          border-radius: 5%;
+          font: inherit;
+          border: 1px solid rgb(34, 82, 121);
+          border-radius: 5px;
+          color: rgb(34, 82, 121);
+          background: none;
+          cursor: pointer;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 5px 25px;
+          position: absolute;
+          left: 126.2rem;
+      }
+      .map .ops,
+      .hrt {
+          display: none;
+      }
+      .map .ops2 {
+          display: block;
+      }
+      .ops2 table {
+          color: black;
+          font-size: 11px;
+          margin-top: 20px;
+      }
+  }
+  
+  @media (min-width: 376px) {
+      .map .ops,
+      .hrt {
+          visibility: visible;
+      }
+      .map .ops2 {
+          display: none;
+      }
+  }
+  
+  .map {
+      width: 70%;
+      height: 60%;
+      font-size: 18px;
+      text-align: center;
+      position: relative;
+      padding-bottom: 10px;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+      background-color: rgb(88, 121, 153);
+      color: #fff;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link {
+      color: rgb(88, 121, 153);
+  }
+  
+  .flex-container input {
+      margin-bottom: 0;
+  }
+  
+  .button-fuckyou button {
+      color: rgb(0, 0, 0);
+      height: 2rem;
+      margin: 0.1rem 0.2rem;
+      width: 2rem;
+      border-radius: 50%;
+  }
+  
+  .button-fuckyou button:hover {
+      background-color: rgb(88, 121, 153);
+  }
+  
+  .gray {
+      background-image: url(../../../flights/components/pictures/no.png) center no-repeat;
+      z-index: 100;
+  }
+  
+  .button-fuckyou .ovf1 {
+      color: black;
+      height: 2rem;
+      margin: 0.1rem 0.1rem;
+      width: 3rem;
+      border-radius: 0;
+  }
+  
+  .hndAb {
+      padding: 0;
+      margin: 0;
+  }
+  
+  .table2-body textarea {
+      padding: 0%;
+      margin: 0%;
+      color: rgb(88, 121, 153);
+      border: rgb(88, 121, 153);
+      ;
+  }
+  
+  .table2 {
+      margin: 2rem 2rem 0 2rem;
+      color: rgb(88, 121, 153);
+      border-collapse: collapse;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgb(88, 121, 153);
+  }
+  
+  .table2-thead th {
+      font-size: 20px;
+      color: rgb(88, 121, 153);
+      border: 1px solid rgb(88, 121, 153);
+  }
+  
+  .table2 td,
+  th {
+      border: 1px solid rgb(88, 121, 153);
+      max-height: 1rem;
+      padding: 0;
+      width: 190px;
+  }
+  
+  .table2 .table2-body tr {
+      height: 30px;
+  }
+  
+  .place-list {
+      list-style: none;
+      margin: 1rem auto;
+      padding: 0;
+      width: 90%;
+      max-width: 40rem;
+  }
+  
+  .map-container {
+      display: grid;
+      grid-template-columns: auto;
+  }
+  
+  ;
+  .handling {
+      display: flex;
+  }
+  
+  .table3 {
+      margin: 2rem 0 0 2rem;
+      color: rgb(88, 121, 153);
+      border-collapse: collapse;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      max-width: 100px;
+      box-shadow: 0 0 20px rgb(88, 121, 153);
+  }
+  
+  .table3-thead th {
+      color: rgb(88, 121, 153);
+      border: 1px solid rgb(88, 121, 153);
+  }
+  
+  .table2-thead th {
+      color: rgb(88, 121, 153);
+      border: 1px solid rgb(88, 121, 153);
+      width: 180px;
+      max-width: 180px;
+      min-width: 180px;
+  }
+  
+  .table3 td,
+  th {
+      border: 1px solid rgb(88, 121, 153);
+      max-height: 0.5rem;
+      padding: 0;
+      width: 150px;
+      max-width: 150px;
+      min-width: 150px;
+  }
+  
+  .table2-thead th:nth-child(1),
+  .table2-thead th:nth-child(2),
+  .table2-thead th:nth-child(5),
+  .table2-thead th:nth-child(6),
+  .table2-thead th:nth-child(8),
+  .table3 td:nth-child(1),
+  .table3 td:nth-child(2),
+  .table3 td:nth-child(5),
+  .table3 td:nth-child(6),
+  .table3 td:nth-child(8),
+  .table3 th:nth-child(1),
+  .table3 th:nth-child(2),
+  .table3 th:nth-child(5),
+  .table3 th:nth-child(6),
+  .table3 th:nth-child(8)
+   {
+      width: 90px;
+      max-width: 90px;
+      min-width: 90px;
+  }
+  
+  .table2-thead th:nth-child(10),
+  .table3 td:nth-child(10),
+  .table3 th:nth-child(10) {
+      display: none;
+  }
+  
+  .table3 .table3-body tr {
+      height: 50px;
+  }
+  
+  #handling-name {
+      color: rgb(88, 121, 153);
+  }
+  
+  .btn-holder {
+      margin-left: 15px;
+      margin-top: 45px;
+      display:flex ;
+      flex-direction: column;
+
+  }
+  
+  .btn-savechange {
+      display: inline-block;
+      margin: 2rem 1rem 0 2rem;
+      height: auto;
+      width: 100%;
+      border-radius: 5%;
+      font: inherit;
+      border: 1px solid rgb(34, 82, 121);
+      border-radius: 5px;
+      color: rgb(34, 82, 121);
+      background: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 3px;
+  }
+  
+  .btn-savechange a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .btn-savechange2 {
+      margin-top: 2rem;
+      height: 2.3rem;
+      width: fit-content;
+      border-radius: 5%;
+      font: inherit;
+      border: 1px solid rgb(34, 82, 121);
+      border-radius: 5px;
+      color: rgb(34, 82, 121);
+      background: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 5px;
+      position: absolute;
+      left: 80rem;
+  }
+  
+  .btn-saveBtn {
+      margin: 30px 0 0 55px;
+      height: fit-content;
+      width: fit-content;
+      border-radius: 5%;
+      font: inherit;
+      border: 1px solid rgb(34, 82, 121);
+      border-radius: 5px;
+      color: white;
+      background-color: rgb(68, 110, 77);
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 5px 25px;
+      position: absolute;
+      left: 86.2rem;
+  }
+  
+  .btn-saveBtn:hover {
+      border: 1px solid rgb(34, 82, 121);
+      background-color: white;
+      color: rgb(44, 112, 59);
+  }
+  
+  .ops {
+      display: flex;
+  }
+  
+  .row1 {
+      width: 110px;
+      min-width: 110px;
+      max-width: 110px;
+      text-align: center;
+  }
+  
+  .row12 {
+      width: 150px;
+      min-width: 110px;
+      max-width: 150px;
+      text-align: center;
+      margin: 2px;
+      background-color: white;
+  }
+  
+  #last-row1,
+  #last-row2,
+  #last-row3,
+  #last1-row1,
+  #last1-row2,
+  #last1-row3,
+  #last2-row1,
+  #last2-row2,
+  #last2-row3,
+  #last3-row1,
+  #last3-row2,
+  #last3-row3 {
+      width: 110px;
+      min-width: 110px;
+      max-width: 110px;
+      text-align: center;
+  }
+  
+  .last-row1 {
+      width: 110px;
+      min-width: 110px;
+      max-width: 110px;
+      text-align: center;
+  }
+  
+  .text-row1 {
+      padding: 2px;
+      width: 100%;
+  }
+  
+  .btn-savechange:hover,
+  #btn-savechange2:hover {
+      color: white;
+      background-color: rgb(88, 121, 153);
+  }
+  
+  .select-css {
+      display: block;
+      font-size: 16px;
+      color: rgb(88, 121, 153);
+      line-height: 1.3;
+      padding: .6em 1.4em .5em .8em;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+      border: 1px solid #aaa;
+      box-shadow: 0 1px 0 1px rgb(88, 121, 153);
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: #fff;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+      background-repeat: no-repeat, repeat;
+      background-position: right .7em top 50%, 0 0;
+      background-size: .65em auto, 100%;
+  }
+  
+  .select-css::-ms-expand {
+      display: none;
+  }
+  /* Hover style */
+  
+  .select-css:hover {
+      outline: 1px solid rgb(88, 121, 153);
+  }
+  /* Focus style */
+  
+  .select-css:focus {
+      border-color: #aaa;
+      /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+      box-shadow: 0 0 1px 3px rgb(88, 121, 153);
+      box-shadow: 0 0 0 3px -moz-mac-focusring;
+      color: rgb(88, 121, 153);
+      outline: none;
+  }
+  /* Set options to normal weight */
+  
+  .select-css option {
+      font-weight: normal;
+  }
+  /* Support for rtl text, explicit support for Arabic and Hebrew */
+  
+  *[dir="rtl"] .select-css,
+   :root:lang(ar) .select-css,
+   :root:lang(iw) .select-css {
+      background-position: left .7em top 50%, 0 0;
+      padding: .6em .8em .5em 1.4em;
+  }
+  /* Disabled styles */
+  
+  .select-css:disabled,
+  .select-css[aria-disabled=true] {
+      color: graytext;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  }
+  
+  .select-css:disabled:hover,
+  .select-css[aria-disabled=true] {
+      border-color: #aaa;
+  }
+  
+  #broker {
+      text-transform: uppercase;
+      font-size: 18px;
+  }
+  
+  .handlers-info p {
+      padding-left: 10px;
+      font-style: italic;
+      font-size: 17px;
+      text-align: left;
+  }
+  
+  .handlers-info span {
+      text-transform: uppercase;
+      margin: 0 0 0 2px;
+  }
+  
+  .handlers-info p:first-letter {
+      text-transform: uppercase;
+  }
+  
+  .select-css option {
+      text-align: left;
+  }
+  
+  .isr-pmt button {
+      border-radius: 5px;
+      color: rgb(34, 82, 121);
+      margin-top: 5px;
+  }
+  
+  .isr-pmt .isrPmt-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  .isr-pmt .isrPmt-container input {
+      font-size: 15px;
+      width: 200px;
+      border-radius: 5px;
+      height: 25px;
+      margin-left: 15px;
+  }
+  
+  .isr-pmt .isrPmt-container label {
+      margin-left: 5px;
+      margin-bottom: 5px;
+  }
+  
+  .mp-leg1 {
+      margin: 0 auto;
+      width: fit-content;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  
+  .mp-leg1 label,
+  select {
+      margin: 5px;
+  }

@@ -1,0 +1,275 @@
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+}
+
+.pagination>.active>a {
+    background-color: #47ccde;
+    border-color: #47ccde;
+    color: #fff;
+}
+
+.pagination>li>a {
+    border: 1px solid #47ccde;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #47ccde;
+    border-color: #47ccde;
+    outline: none;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: #47ccde
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    border-radius: unset
+}
+
+.card-list {
+    width: auto;
+    max-width: 1800px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 800px;
+    margin-bottom: 55px;
+}
+
+.card-list2 {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.card-list35 {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.card-list35 #registration,
+#dateStart,
+#date {
+    /* margin-left: 50px;
+  margin-right: 50px; */
+    height: 30px;
+}
+
+.card-list35 p {
+    font-family: 'Verdana', 'Geneva', 'sans-serif';
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 130px;
+    min-width: 130px;
+    width: 130px;
+    color: rgb(50, 73, 95);
+    /* margin-left: 50px;
+  margin-right: 50px;  */
+}
+
+.heading-list {
+    margin: 0 auto;
+    color: rgb(50, 73, 95);
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.card-list35 div {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.table-branka {
+    width: 100%;
+}
+
+.table-branka .even {
+    max-height: 35px;
+    height: 35px;
+}
+
+.table-branka .even td {
+    padding-top: 5px;
+}
+
+#tableRow0,
+#tableRow1,
+#tableRow2,
+#tableRow3,
+#tableRow4,
+#tableRow5 {
+    background-color: cadetblue;
+}
+
+.table-branka .even td:nth-child(9) {
+    padding-top: 0;
+}
+
+.table-branka .even td:nth-child(15) {
+    padding-top: 0;
+}
+
+.table-branka .even td:nth-child(15) button {
+    width: 120px;
+}
+
+.list-input {
+    max-width: 120px;
+    min-width: 120px;
+    width: 120px;
+    padding: 0;
+    height: 38px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.table-branka .bgvi tr th:nth-child(2) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+}
+
+.table-branka .bgvi tr th:nth-child(3) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+}
+
+.table-branka .bgvi tr th:nth-child(4) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+}
+
+.table-branka .bgvi tr th:nth-child(5) {
+    max-width: 30px;
+    min-width: 30px;
+    width: 30px;
+}
+
+.table-branka .bgvi tr th {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+}
+
+.table-branka .bgvi tr th:nth-child(2) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+    height: 40px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .bgvi tr th:nth-child(3) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .bgvi tr th:nth-child(4) {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+    height: 40px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .bgvi tr th:nth-child(5) {
+    max-width: 30px;
+    min-width: 30px;
+    width: 30px;
+    height: 40px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .bgvi tr th {
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+    height: 40px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .bgvi tr th:first-child {
+    max-width: 45px;
+    min-width: 45px;
+    width: 45px;
+    padding-bottom: 10px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+.table-branka .even td:first-child {
+    max-width: 45px;
+    min-width: 45px;
+    width: 45px;
+}
+
+.selector {
+    display: inline-flex;
+}
+
+.selector button {
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.btn-selector {
+    display: inline-block;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: #ffffff;
+    color: rgb(50, 73, 95);
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.btn-selector:hover,
+.btn-selector:focus {
+    background: #6b8eb8;
+}
+
+.btn-selector:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.btn-selector:active {
+    transform: scale(0.99);
+}

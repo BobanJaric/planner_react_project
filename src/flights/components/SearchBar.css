@@ -1,0 +1,156 @@
+.option-2 h6 {
+    height: 25px;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(88, 121, 153);
+}
+
+.search-bar2 {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.auto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: rgb(88, 121, 153);
+    font-size: 18px;
+}
+
+#auto2 {
+    padding: 0;
+    max-height: 110px;
+    width: 100%;
+    border: 1px solid rgb(88, 121, 153);
+    margin: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.pos-rel2 {
+    position: relative;
+}
+
+.autoContainer-search {
+    position: absolute;
+    border-width: 0px 1px 1px 1px;
+    /* border-style: solid;
+    border-color: rgb(88, 121, 153); */
+    left: -164px;
+    top: 55px;
+    width: 450px;
+    height: auto;
+    max-height: 280px;
+    /*    overflow: hidden; */
+    font-size: 18px;
+    z-index: 100;
+    color: rgb(88, 121, 153);
+}
+
+.option-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    padding: 5px;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+    /* background-color: white;
+    color: rgb(88, 121, 153); */
+    background-color: rgb(8, 8, 8);
+    opacity: 0.85;
+    color: white;
+    overflow-wrap: anywhere;
+}
+
+.option-2,
+.span-2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: text;
+    text-transform: initial;
+}
+
+.option-2:hover {
+    background-color: rgb(88, 121, 153);
+}
+
+.option-2 h6:hover {
+    color: azure;
+}
+
+hr {
+    background-color: white;
+}
+
+.country-para {
+    padding: 0;
+    margin: 0;
+}
+
+.country-para span {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container2 {
+    display: flex;
+}
+
+.flex-column2 {
+    flex-direction: column;
+}
+
+.row-searchbar {
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.row-searchbar label {
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgb(75, 108, 141);
+    font-size: large;
+}
+
+.flex-container2 input {
+    margin-bottom: 0;
+    width: 200px;
+}
+
+
+/* Dodato za mobile */
+
+@media (max-width: 668px) {
+    .row-searchbar label {
+        display: none;
+    }
+    .option-search {
+        width: 355px;
+        margin-left: 10px;
+        padding: 6px;
+    }
+    .autoContainer-search {
+        position: absolute;
+        border-width: 0px 1px 1px 1px;
+        left: -164px;
+        top: 5px;
+        width: 450px;
+        height: auto;
+        max-height: 280px;
+        font-size: 18px;
+        z-index: 100;
+        color: rgb(88, 121, 153);
+    }
+}

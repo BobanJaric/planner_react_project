@@ -1,0 +1,82 @@
+.auto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: rgb(88, 121, 153);
+    font-size: 18px;
+}
+
+#auto {
+    padding: 0;
+    max-height: 110px;
+    width: 100%;
+    border: 1px solid rgb(88, 121, 153);
+    margin: 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.autoContainer {
+    position: absolute;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: rgb(88, 121, 153);
+    background-color: whitesmoke;
+    right: 0px;
+    top: 30px;
+    width: 150px;
+    height: auto;
+    font-size: 18px;
+    z-index: 100;
+    /* overflow: hidden; */
+    overflow: auto;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.option,
+span {
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgb(88, 121, 153);
+    color: whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.row1 {
+    width: 150px;
+    min-width: 110px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.first-row1 {
+    width: 150px;
+    min-width: 110px;
+    max-width: 150px;
+    text-align: center;
+}

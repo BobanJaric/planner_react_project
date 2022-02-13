@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+.news-list {
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.news-list {
+    font-family: "Poppins";
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 2px 8 px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.news-headline {
+    margin: 0 auto;
+    font-family: "Poppins";
+    text-align: center;
+    color: rgb(88, 121, 153);
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgb(246, 166, 35), 6px 6px 0px rgb(88, 121, 153), 8px 8px 0px rgb(246, 166, 35), 10px 10px 0px rgb(88, 121, 153)
+}
+
+.form-info-news {
+    width: 60vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0.5rem;
+    background-color: rgb(88, 121, 153);
+    padding: 15px;
+    color: white;
+    box-shadow: 0 2px 8 px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+}
+
+.crew-form-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.crew-form-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.crew-form-3 .btn-news {
+    width: max-content;
+}
+
+.form-info-news-inner {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.news-form-1 {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.form-info-btn button {
+    float: right;
+    margin-top: 25px;
+}
+
+#paraf {
+    align-self: flex-end;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.form-info-news p:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.crew-form-2 .btn-news {
+    border: none;
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    color: rgb(88, 121, 153);
+    font-weight: bold;
+}
+
+.crew-form-2 .btn-news:hover {
+    text-decoration: underline;
+}
+
+.addnews-holder {
+    background-color: white;
+    box-shadow: 0 2px 8 px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control-news {
+    margin-top: 0.3rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 90rem;
+    width: 100%;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+}
+
+.form-info-news-input {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.form-info-news-input textarea {
+    width: 100%;
+}
+
+.form-info-news-input select {
+    width: 20%;
+}
+
+#news-info {
+    font-size: 15px;
+    padding-left: 10px;
+    max-width: 555px;
+}
+
+#news-info p {
+    text-transform: initial;
+}
+
+#news-info #link {
+    color: white;
+}
+
+#news-info #link:hover {
+    color: gold;
+}
+
+.news-country {
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+#span-info {
+    font-size: 15px;
+}
+
+.news-list-holder1 {
+    display: flex;
+    justify-content: flex-end
+}
+
+.span-country {
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+/* Dodato za mobile */
+
+@media (max-width: 668px) {
+    .form-info-news-inner {
+        display: flex;
+        flex-flow: column;
+    }
+    .news-list {
+        width: 90%;
+    }
+    .form-info-news {
+        width: 90%;
+    }
+    .crew-form-2 {
+        width: 90%;
+    }
+    .crew-form-3 {
+        flex-flow: column;
+        justify-content: flex-start;
+    }
+    .crew-form-3 .btn-news {
+        margin-left: 45px;
+    }
+}
+
+.news-btn-holder {
+    display: flex;
+    justify-content: center;
+}

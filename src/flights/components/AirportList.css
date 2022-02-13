@@ -1,0 +1,32 @@
+.aircraft-list {
+    max-width: 300px;
+}
+
+.option-aircraft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(88, 121, 153);
+    text-transform: capitalize;
+    cursor: default;
+}
+
+.option-aircraft h6 {
+    margin: 0;
+}
+
+.option-aircraft link {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/*  .option-aircraft:hover{
+    background-color: rgb(88, 121, 153);
+  }
+  .option-aircraft :hover{
+    color: azure;
+  } */

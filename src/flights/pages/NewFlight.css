@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+.flight-outline{
+    border:1px solid black;
+    padding: 0.5rem;
+}
+.place-form{
+    font-family: "Poppins";
+    list-style:none;
+    margin:0 auto;
+    padding: 1rem;
+    width: 90%;
+    box-shadow: 0 2px 8 px rgba(0,0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    border:1pax solid black
+}
+
+.animation{
+    margin:0 auto;
+    margin-top: 25px;
+    padding: 1rem;
+    width: 100%;
+    height: 455px;
+    box-shadow: 0 2px 8 px rgba(0,0, 0, 0.26);
+    border-radius: 6px;
+
+}
+
+
+@keyframes picture{
+    100%{
+        transform: translateX(2500px);
+    }
+}
+
+.flight-header #reg{
+    text-transform: capitalize;
+}
+
+.place-form1{
+    list-style:none;
+    margin:0 auto;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 8 px rgba(0,0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.place-form2{
+    list-style:none;
+    margin:0 auto;
+    padding: 1rem;
+    width: 30%;
+    height: 25rem;
+    box-shadow: 0 2px 8 px rgba(0,0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    text-transform: uppercase;
+}
+
+.aircarft-form{
+    list-style:none;
+    margin:0 auto;
+    padding: 1rem;
+    box-shadow: 0 2px 8 px rgba(0,0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    text-transform: uppercase;
+}
+.flight-info{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center
+}
+.flight-info1{
+    display: block;
+
+}
+.flight-info1 label{
+    margin-right: 9.8rem;
+}
+.flight-info1 label:nth-child(4){
+    margin-right: 10.0rem;
+}
+
+.flight-info1 label:nth-child(5){
+    margin-right: 11.3rem;
+}
+
+.flight-info1 label:nth-child(6){
+    margin-right: 3.8rem;
+}
+
+.flight-info1 label:nth-child(1){
+    margin-right: 10.0rem;
+}
+.flight-info1 label:nth-child(2){
+    margin-right: 9.0rem;
+}
+.flight-info1 label:nth-child(3){
+    margin-right: 10.2rem;
+}
+
+.btn-leg{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ .btn-leg button{
+    background-color:rgb(50,73,95);
+    height: 27px;
+    width: 27px;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    text-align: center;
+    padding: 0 0.5rem 0 0.5rem;
+} 
+
+.btn-leg button:hover{
+    background-color:#fd7e14;
+}
+.flight-info2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flight-header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+     
+}
+.select{
+    padding: 2px;
+    outline: 1px solid red;
+    border-radius: 5px;
+
+}
+.select p{
+    color:red;
+    text-align: center;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flight-header select{
+    margin-left:0.5rem;  
+}
+
+.form-info input  {
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 25px;
+  }
+
+  .handling-info{
+    display: flex;
+    border:1pax solid black;
+    justify-content: space-between; 
+  }
+
+  .hendler1 input{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .form-control2 {
+    margin-top: 0.3rem;
+    margin-right: 1rem ;
+    margin-bottom: 1rem ;
+    display: block;
+    width: 100%; 
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+    border-radius: 5px;
+  }
+
+  .form-control3 {
+    margin-top: 3rem;
+    margin-right: 1rem ;
+    justify-content: space-around;
+    display: flex;
+    width: 100%; 
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+  }
+
+
+  .form-control5 {
+    margin-top: 1rem;
+    margin-right: 1rem ;
+    margin-bottom: 1rem ;
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;  
+    width: 100%; 
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.15rem 0.25rem;
+  }
+
+  .form-control5 p{
+    text-transform: uppercase;
+  }
+
+  .form-info5{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+
+}
+
+.form-info6{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.flight-info input{
+ border-radius: 5px;
+ border: solid black 1px;
+ padding-top: 0.1rem;
+ padding-left: 0.5rem;
+}
+
+.form-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.place-form select{
+    text-align: left;
+    border-width: 1px;
+    padding: 0.1rem;
+}
+
+/* Dodato za mobile */
+@media (max-width: 668px) {
+
+    .flight-info1{
+        display: none;
+    }
+
+    .flight-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flight-info #date1, #departureTime1,#originIcao1, #destinationIcao1, #arrivalTime1, #flightType1,
+    #date2, #departureTime2,#originIcao2, #destinationIcao2, #arrivalTime2, #flightType2,
+    #date3, #departureTime3,#originIcao3, #destinationIcao3, #arrivalTime3, #flightType3,
+    #date4, #departureTime4,#originIcao4, #destinationIcao4, #arrivalTime4, #flightType4{
+        margin-bottom: 10px;
+        width:195px ;
+    }
+    .flight-info div, .flight-header{
+        margin: 0 auto;
+    }
+    .flight-header p{
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .flight-header {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .flight-header #registration {
+        width:195px;
+        
+    }
+    #place-form-btn {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .flight-info  {
+        margin:0;
+        margin-bottom: 0.5rem;
+ 
+    }
+
+    .main-div{
+        padding-bottom: 20px;
+    }
+    .handling-info{
+        display: flex;
+        border:1pax solid black;
+        justify-content: space-between; 
+        flex-direction: column;
+        align-items: center
+      }
+
+      .handling-info p {
+          text-align: center;
+          text-transform: uppercase;
+          margin: 0;
+      }
+
+      .btn-holder-flt{
+          display:flex;
+          justify-content: center;
+          margin-bottom: 1rem;
+          margin-top: 0.3rem;
+      }
+      .place-form select, input {
+        width: 200px;
+    }
+  }
+
+  @media (max-width: 1900px) {
+
+    .flight-info1 label:nth-child(3){
+        margin-right: 8.0rem;
+    }
+
+    .flight-info1 label:nth-child(4){
+        margin-right: 9.2rem;
+    }
+    .flight-info1 label:nth-child(5){
+        margin-right: 10.2rem;
+    }
+
+    .flight-info1 label:nth-child(6){
+        margin-right: 4.9rem;
+    }
+    .flight-info1 label:nth-child(7){
+        margin-right: 0;
+    }
+    .flight-info input {
+        border-radius: 5px;
+    }
+
+  }
+
+  @media (max-width: 1600px) {
+
+    .flight-info1 label:nth-child(4){
+        margin-right: 4.0rem;
+    }
+    .flight-info1 label:nth-child(5){
+        margin-right: 3.6rem;
+    }
+
+    .flight-info1 label:nth-child(6){
+        margin-right: 2.9rem;
+    }
+    .flight-info1 label:nth-child(7){
+        margin-right: 0;
+    }
+
+    .flight-info input {
+        border-radius: 5px;
+    }
+
+  }
+
+  @media (max-width: 1400px) {
+    .flight-info1 label:nth-child(1){
+        margin-right: 4.5rem;
+    }
+    .flight-info1 label:nth-child(2){
+        margin-right: 2.6rem;
+    }
+
+    .flight-info1 label:nth-child(3){
+        margin-right: 3.6rem;
+    }
+
+    .flight-info1 label:nth-child(4){
+        margin-right: 3.0rem;
+    }
+    .flight-info1 label:nth-child(5){
+        margin-right: 4.2rem;
+    }
+
+    .flight-info1 label:nth-child(6){
+        margin-right: 4.4rem;
+    }
+    .flight-info1 label:nth-child(7){
+        margin-right: 0;
+    }
+
+    .flight-info input {
+        width:115px ;
+        border-radius: 5px;
+    }
+
+  }
+
+  @media (max-width: 992px) {
+
+    .flight-info1 label{
+        overflow-wrap: break-word;
+        width: 65px;
+        font-size: 12px;
+    }
+
+    .flight-info1 label:nth-child(1){
+        margin-right: 1.5rem;
+        
+    }
+    .flight-info1 label:nth-child(2){
+        margin-right: 1.6rem;
+    }
+
+    .flight-info1 label:nth-child(3){
+        margin-right: 1.6rem;
+    }
+
+    .flight-info1 label:nth-child(4){
+        margin-right: 1.5rem;
+    }
+    .flight-info1 label:nth-child(5){
+        margin-right: 1.6rem;
+    }
+
+    .flight-info1 label:nth-child(6){
+        margin-right: 1.9rem;
+    }
+    .flight-info1 label:nth-child(7){
+        margin-right: 0;
+    }
+
+    .flight-info input, select {
+        width:85px ;
+        border-radius: 5px;
+    }
+    .flight-header #registration{
+        width:145px ;
+    }
+
+    
+
+  }
+
+
+  #add-first-leg{
+      width: auto;
+  }
+
+  .place-form select, input {
+      width: 200px;
+      text-align: center;
+  }
+
+
+.flight-header  p{
+    text-transform: capitalize;
+}
+.holder-6 select {
+     width: 76px; 
+}
+
+
+
